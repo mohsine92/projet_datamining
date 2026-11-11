@@ -33,6 +33,6 @@ Pour les analyses qui exigent une observation par parcelle et par millésime, le
 
 ### Valeurs atypiques et unités
 
-P91, P100 et P145 ont un âge renseigné de 150 ans, contre un maximum de 58 ans pour les autres parcelles. Ces valeurs sont conservées. Sur l'export parcelles, la corrélation de Pearson entre l'âge des vignes et le rendement est de −0,15 sur les 220 parcelles et de −0,23 lorsque ces trois lignes sont écartées du calcul. Pour les analyses où l'âge intervient, comparer les résultats avec et sans ces observations.
+P91, P100 et P145 ont un âge renseigné de 150 ans, contre un maximum de 58 ans pour les autres parcelles. Ces valeurs sont conservées.
 
 L'azote est renseigné en g/ha. Pour l'exprimer en kg/ha, diviser les valeurs par 1 000. Les imputations, agrégations et choix de variables sont documentés dans les analyses qui les utilisent.
