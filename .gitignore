@@ -1,0 +1,18 @@
+# Environnement Python
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+
+# Fichiers temporaires
+*.log
