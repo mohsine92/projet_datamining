@@ -36,3 +36,5 @@ Pour les analyses qui exigent une observation par parcelle et par millésime, le
 P91, P100 et P145 ont un âge renseigné de 150 ans, contre un maximum de 58 ans pour les autres parcelles. Ces valeurs sont conservées.
 
 L'azote est renseigné en g/ha. Pour l'exprimer en kg/ha, diviser les valeurs par 1 000. Les imputations, agrégations et choix de variables sont documentés dans les analyses qui les utilisent.
+
+## Question 7-8
