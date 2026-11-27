@@ -37,4 +37,8 @@ P91, P100 et P145 ont un âge renseigné de 150 ans, contre un maximum de 58 ans
 
 L'azote est renseigné en g/ha. Pour l'exprimer en kg/ha, diviser les valeurs par 1 000. Les imputations, agrégations et choix de variables sont documentés dans les analyses qui les utilisent.
 
-## Question 7-8
+### Questions 7 et 8 : terroirs et cahier de culture
+- **Notebook :** `notebooks/q7_q8_Aymerick.ipynb` 
+- **Sortie :** `data/processed/parcelles_terroirs.csv`
+- **Méthode :** clustering K-Means (`k = 4`) sur les variables physiques standardisées (altitude, pente, pluviométrie), validé par test de permutation et stabilité ARI, puis analyse de la conduite par zone (régression `rendement ~ azote` et croisement avec `prix_kg_eur` de `historique_clean.csv`).
+- **Résultats clés :** pas de clusters naturels disjoints mais un continuum découpé en 4 zones de gestion stables ; frontière stricte du classement premium à 7 000 kg/ha ; arbitrage économique volume vs premium piloté par la dose d'azote en kg/ha (densité et traitements sans effet significatif).
